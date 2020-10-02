@@ -1,0 +1,193 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+    vertical-align: top;
+}
+
+ /**
+  * BUTTON
+  */
+footer {  
+    background-color: #ffffff;
+    border-style: solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    transition: all .5s ease-in-out;
+}
+
+footer:hover {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+a {
+    text-decoration: none;
+    transition: all .125s ease-in-out;
+}
+
+h2 {
+    color: black;
+}
+
+body {
+    background: #000000;
+
+    background-image: url("../images/Map-of-Barovia-landmark-free.png");
+    /*
+    background-size: auto 100%;
+    background-repeat: no-repeat, repeat;
+    */
+    width: 1311px;
+    height: 771px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    max-width: 1080px;
+}
+
+.title {
+    padding-top: 1.0em;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    text-shadow: 2px 1px darkgrey;
+}
+
+.holder-brick {
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+  }
+
+.brick {
+    background-color: white;
+    /*width: 40%;*/
+    border-style: outset;
+    border-color: darkgrey;
+    padding-left: 1.0em;
+    padding-right: 1.0em;
+    transition: .25 ease-in-out;
+
+}
+
+.brick-image {
+    margin: auto auto auto auto;
+    float: left;
+    /*width:50%; */
+}
+
+.brick-text {
+    /*display: inline;*/
+    margin: auto;
+    float: left;
+    width: 50%;
+}
+
+.brick-title {
+    text-align: center;
+    margin: .5em;
+}
+
+.masonry {
+    transition: all .5s ease-in-out;
+    column-gap: 30px;
+    column-fill: initial;
+}
+
+.masonry .brick {
+    margin-bottom: 15px;
+    display: inline-block; 
+    vertical-align: top; 
+}
+
+.masonry .brick img {
+    transition: all .5s ease-in-out;
+    backface-visibility: hidden; 
+    width: 50%;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .holder-brick {
+      width: 25%;
+      justify-content: center;
+      flex: none;
+      color: red;
+    }
+}
+  
+/* Desktop Styles */ 
+@media only screen and (min-width: 961px) {
+    .page {
+      width: 960px;
+      margin: 0 auto;
+    }
+
+}
+
+/*
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.img{
+    display: inline;
+    border:1px solid red;
+}
+
+.box-text{
+}
+
+
+.box-1{
+   width:50%; 
+   display: inline;
+   float: left;
+}
+
+.box-2{
+    width:50%; 
+    display: inline;
+    float: right;
+ }
+
+ .box-3{
+    width:50%; 
+    display: inline;
+    float: left;
+ }
+
+ .box-4{
+    width:50%; 
+    display: inline;
+    float: right;
+ }
+
+ .clr{
+     clear:both
+ }
+ */
